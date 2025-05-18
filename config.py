@@ -19,7 +19,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7635289944:AAGY8rMgtRgXVNmG8kKCVz3L5T5zSDHZquI"
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://telegram:telegram@secondobot.ytc81fz.mongodb.net/?retryWrites=true&w=majority&appName=secondobot")
 LOG_GROUP = getenv("LOG_GROUP", "")
-CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-2223028008"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
