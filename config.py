@@ -15,7 +15,7 @@ YTUB_COOKIES = """
 
 API_ID = int(getenv("API_ID", "20406918"))
 API_HASH = getenv("API_HASH", "45a7cdec1a4177ffde664c2639dfa203")
-BOT_TOKEN = getenv("BOT_TOKEN", "7635289944:AAGY8rMgtRgXVNmG8kKCVz3L5T5zSDHZquI")
+BOT_TOKEN = getenv("BOT_TOKEN", "8080324391:AAGIWUP9a-o-vcOfzEbGEjxbvfqyIyzntaE")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://telegram:telegram@secondobot.ytc81fz.mongodb.net/?retryWrites=true&w=majority&appName=secondobot")
 LOG_GROUP = getenv("LOG_GROUP", "")
